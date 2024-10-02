@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+body{
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.cadastros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+form {
+    flex: 1;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    line-height: 2;
+}
+
+input{
+    border-radius: 20px;
+    width: 50%;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.imagem-animada {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-animada img {
+    max-width: 60%;
+    height: auto;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.enviar {
+    display: inline-block;
+    width: 150px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}

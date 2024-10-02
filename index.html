@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="titulo">
+        <h2>PREENCHA SEU FORMULÁRIO</h2>
+        <br>
+    </div>
+
+    <div class="cadastros">
+        <form action="envio.html" method="get">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="endereco">Endereço: </label>
+            <input type="text" name="endereco" id="endereco">
+            <br>
+            <label for="idade">Idade: </label>
+            <input type="number" name="idade" id="idade" min="0" max="100" step="1">
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="telefone">Telefone: </label>
+            <input type="tel" name="telefone" id="telefone">
+            <br>
+            <div  class="enviar">
+                <a href="envio.html" target="_blank">Enviar</a>
+            </div>
+        </form>
+        <div class="imagem-animada">
+            <img src="Imagens/building-permit-animate.svg" alt="Formulario">
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <p>&copy; Idealizado por Matheus Ferreira</p>
+        <p><a href="https://github.com/matheusfesantos" style="color: blueviolet;">GitHub</a> | 
+            <a href="https://www.instagram.com/theusf3r" style="color: blueviolet;">Instagram</a></p>
+    </footer>
+
+    <script src="Script/script.js"></script>
+</body>
+</html>
